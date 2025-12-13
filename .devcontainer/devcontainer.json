@@ -1,0 +1,20 @@
+{
+  "name": "Suppon Me",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "yakipudding",
+  "workspaceFolder": "/home/node/suppon-me",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.auto-close-tag", // HTML Auto Close Tag
+        "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+        "dbaeumer.vscode-eslint", // ESLint
+        "esbenp.prettier-vscode", // prettier
+        "PKief.material-icon-theme", // iconパック
+        "xabikos.ReactSnippets", // React Code Snippets
+        "xabikos.JavaScriptSnippets" // JS Code Snippets
+      ]
+    }
+  },
+  "remoteUser": "node"
+}

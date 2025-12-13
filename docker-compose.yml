@@ -1,0 +1,15 @@
+services:
+  yakipudding:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: >
+      sh -c "sleep infinity"
+    tty: true
+    volumes:
+      - node_modules:/home/node/suppon-me/node_modules
+      - .:/home/node/suppon-me
+      - ~/.ssh:/home/node/.ssh:cached
+
+volumes:
+  node_modules:
