@@ -10,9 +10,6 @@ export default function Home() {
         <Navigation />
         <div className='mx-auto max-w-125'>
           <Content />
-          <Content />
-          <Content />
-          <Content />
         </div>
       </main>
     </>
