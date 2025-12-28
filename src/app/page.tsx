@@ -1,15 +1,16 @@
 import Header from '@/components/server/header';
 import Navigation from '@/components/server/navigation';
-import Content from '../components/server/content';
+import { DeepSeaCreatures, KanjiShot } from '@/components/server/content';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className='bg-base h-full w-full'>
+      <main className='bg-base-0 h-full w-full'>
         <Navigation />
         <div className='mx-auto max-w-125'>
-          <Content />
+          <DeepSeaCreatures />
+          <KanjiShot />
         </div>
       </main>
     </>

@@ -1,10 +1,16 @@
 import type { Metadata } from 'next';
-import { Noto_Sans_JP } from 'next/font/google';
+import { Noto_Sans_JP, DotGothic16 } from 'next/font/google';
 import './globals.css';
 
 const notoSansJP = Noto_Sans_JP({
   variable: '--font-noto',
   subsets: ['latin'],
+});
+
+const dotGothic16 = DotGothic16({
+  variable: '--font-dot',
+  subsets: ['latin'],
+  weight: '400',
 });
 
 export const metadata: Metadata = {
@@ -19,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='jp'>
-      <body className={`${notoSansJP.variable} antialiased`}>{children}</body>
+      <body className={`${notoSansJP.variable} ${dotGothic16.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
