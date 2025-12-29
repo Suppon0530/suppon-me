@@ -1,6 +1,11 @@
 import Header from '@/components/server/header';
 import Navigation from '@/components/server/navigation';
-import { DeepSeaCreatures, KanjiShot, CoveredwithMushrooms } from '@/components/server/content';
+import {
+  DeepSeaCreatures,
+  KanjiShot,
+  CoveredwithMushrooms,
+  YojijukugoDetective,
+} from '@/components/server/content';
 
 export default function Home() {
   return (
@@ -12,6 +17,7 @@ export default function Home() {
           <DeepSeaCreatures />
           <KanjiShot />
           <CoveredwithMushrooms />
+          <YojijukugoDetective />
         </div>
       </main>
     </>
