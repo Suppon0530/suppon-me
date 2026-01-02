@@ -8,18 +8,18 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-noto: var(--font-noto);
+  --font-dot: var(--font-dot);
 }
 
 @theme {
-  --color-base: #2f2b2a;
+  --color-base-0: #141312;
+  --color-base-1: #2f2b2a;
   --color-base-sub-0: #d4d5d9;
   --color-base-sub-1: #edeef2;
+  --color-base-sub-2: #f9f9fb;
   --color-main: #36b385;
   --color-accent: #5632a6;
-  --color-custom-black: #141312;
-  --color-custom-white: #f9f9fb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,8 +29,28 @@
   }
 }
 
+.diagonal-stripes {
+  position: relative;
+}
+
+.diagonal-stripes-before:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: repeating-linear-gradient(-45deg, var(--color-main) 0 3px, transparent 0 6px);
+}
+
+.diagonal-stripes-after:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: repeating-linear-gradient(-45deg, var(--color-main) 0 3px, transparent 0 6px);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-noto);
 }
