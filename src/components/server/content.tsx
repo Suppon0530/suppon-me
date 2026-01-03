@@ -3,7 +3,7 @@ import Image from 'next/image';
 // 深海生物の詰め放題
 export const DeepSeaCreatures = () => {
   return (
-    <section className='h-full w-full py-20 xl:py-28'>
+    <section id='deep-sea-creatures' className='h-full w-full py-20 xl:py-28'>
       <Image src='/bg_top.webp' alt='背景TOP' width={500} height={140} priority />
       <div className='bg-base-sub-1 h-full w-full px-6'>
         {/* コンテンツ */}
@@ -154,7 +154,7 @@ export const DeepSeaCreatures = () => {
 // 漢字ショット
 export const KanjiShot = () => {
   return (
-    <section className='h-full w-full py-20 xl:py-28'>
+    <section id='kanji-shot' className='h-full w-full py-20 xl:py-28'>
       <Image src='/bg_top.webp' alt='背景TOP' width={500} height={140} priority />
       <div className='bg-base-sub-1 h-full w-full px-6'>
         {/* コンテンツ */}
@@ -333,7 +333,7 @@ export const KanjiShot = () => {
 // キノコまみれ
 export const CoveredwithMushrooms = () => {
   return (
-    <section className='h-full w-full py-20 xl:py-28'>
+    <section id='covered-with-mushrooms' className='h-full w-full py-20 xl:py-28'>
       <Image src='/bg_top.webp' alt='背景TOP' width={500} height={140} priority />
       <div className='bg-base-sub-1 h-full w-full px-6'>
         {/* コンテンツ */}
@@ -486,7 +486,7 @@ export const CoveredwithMushrooms = () => {
 // 四字熟語探偵
 export const YojijukugoDetective = () => {
   return (
-    <section className='h-full w-full py-20 xl:py-28'>
+    <section id='yojijukugo-detective' className='h-full w-full py-20 xl:py-28'>
       <Image src='/bg_top.webp' alt='bg-top' width={500} height={140} priority />
       <div className='bg-base-sub-1 h-full w-full px-6'>
         {/* コンテンツ */}
