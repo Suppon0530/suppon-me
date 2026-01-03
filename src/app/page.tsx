@@ -20,6 +20,9 @@ export default function Home() {
           <YojijukugoDetective />
         </div>
       </main>
+      <div className='text-base-sub-1 pb-6 text-center'>
+        &copy; {new Date().getFullYear()} Suppon Game.
+      </div>
     </>
   );
 }
