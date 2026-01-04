@@ -26,7 +26,7 @@ export const DeepSeaCreatures = () => {
                 <source src='/movie_deep_sea_creatures.webm' type='video/webm' />
               </video>
               <Image
-                className='absolute -top-[1%] w-[106%] max-w-none'
+                className='absolute -top-[1.5%] w-[106%] max-w-none'
                 src='/sp_frame.webp'
                 alt=''
                 aria-hidden='true'
@@ -55,7 +55,7 @@ export const DeepSeaCreatures = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg'
               alt='深海生物の詰め放題のAppStoreボタン'
               width={108.85}
@@ -70,11 +70,11 @@ export const DeepSeaCreatures = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/GetItOnGooglePlay_Badge_Web_color_Japanese.png'
               alt='深海生物の詰め放題のGooglePlayボタン'
-              width={239}
-              height={71}
+              width={135}
+              height={40}
               priority
             />
           </a>
@@ -173,7 +173,7 @@ export const KanjiShot = () => {
                 <source src='/movie_kanji_shot.webm' type='video/webm' />
               </video>
               <Image
-                className='absolute -top-[1%] w-[106%] max-w-none'
+                className='absolute -top-[1.5%] w-[106%] max-w-none'
                 src='/sp_frame.webp'
                 alt=''
                 aria-hidden='true'
@@ -208,7 +208,7 @@ export const KanjiShot = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg'
               alt='漢字ショットのAppStoreボタン'
               width={108.85}
@@ -223,7 +223,7 @@ export const KanjiShot = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/GetItOnGooglePlay_Badge_Web_color_Japanese.png'
               alt='漢字ショットのGooglePlayボタン'
               width={239}
@@ -356,7 +356,7 @@ export const CoveredwithMushrooms = () => {
                 <source src='/movie_covered_with_mushrooms.webm' type='video/webm' />
               </video>
               <Image
-                className='absolute -top-[1%] w-[106%] max-w-none'
+                className='absolute -top-[1.5%] w-[106%] max-w-none'
                 src='/sp_frame.webp'
                 alt=''
                 aria-hidden='true'
@@ -385,7 +385,7 @@ export const CoveredwithMushrooms = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg'
               alt='キノコまみれのAppStoreボタン'
               width={174}
@@ -400,7 +400,7 @@ export const CoveredwithMushrooms = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/GetItOnGooglePlay_Badge_Web_color_Japanese.png'
               alt='キノコまみれのGooglePlayボタン'
               width={174}
@@ -505,7 +505,7 @@ export const YojijukugoDetective = () => {
                 <source src='/movie_yojijukugo_detective.webm' type='video/webm' />
               </video>
               <Image
-                className='absolute -top-[1%] w-[106%] max-w-none'
+                className='absolute -top-[1.5%] w-[106%] max-w-none'
                 src='/sp_frame.webp'
                 alt=''
                 aria-hidden='true'
@@ -540,7 +540,7 @@ export const YojijukugoDetective = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg'
               alt='四字熟語探偵のAppStoreボタン'
               width={174}
@@ -555,7 +555,7 @@ export const YojijukugoDetective = () => {
             rel='noopener noreferrer'
           >
             <Image
-              className='h-full w-auto'
+              className='h-[min(12vw,64px)] w-auto'
               src='/GetItOnGooglePlay_Badge_Web_color_Japanese.png'
               alt='四字熟語探偵のGooglePlayボタン'
               width={174}

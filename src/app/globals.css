@@ -53,4 +53,5 @@ body {
   background: var(--color-base-0);
   color: var(--foreground);
   font-family: var(--font-noto);
+  overflow: auto;
 }
